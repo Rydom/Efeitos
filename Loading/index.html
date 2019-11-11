@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Css animação de carregamento</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a10adc2e43.js"></script>
+    
+</head>
+<body>
+   <div class="loader">
+       
+   </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>   
+    <script type="text/javascript">
+        const a = window.document.getElementsByClassName('loader')[0]
+        $(document).ready(function(){
+            setTimeout(function (){
+                $('.loader').hide()
+            },3000)
+            
+        })
+   </script>
+</body>
+</html>
